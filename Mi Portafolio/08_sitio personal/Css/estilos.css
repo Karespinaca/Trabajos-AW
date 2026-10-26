@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: #212529;
+    background-image: url(../Imagenes/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+ header.navbar{
+    background-color: #000;
+ }
+
+/* Títulos */
+h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif;
+}
+h1{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+p {
+    font-size: 17px;
+}
+ 
+section {
+    scroll-margin-top: 75px;
+}
+ 
+/* Barra de navegación */
+.logotipo {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 8px;
+    object-fit: cover;
+}
+ 
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+/* Inicio */
+.inicio {
+    padding: 10px 0;
+}
+ 
+.inicio h1 {
+    font-size: 100px;
+}
+ 
+.inicio p {
+    max-width: 700px;
+    margin: 15px auto;
+}
+ 
+.foto-perfil {
+    max-height: 370px;
+    border-radius: 15px;
+    border: 4px solid #fff;
+    object-fit: cover;
+}
+ 
+.card-body {
+    padding: 25px;
+}
+ 
+.imagen-habilidad {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+ 
+.card-title {
+    margin-bottom: 15px;
+}
+ 
+.card-title i {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+ 
+
+.imagen-proyecto {
+    height: 400px;
+    object-fit: contain;
+    background-color: #fff;
+}
+ 
+.pie-proyecto {
+    background-color: #000;
+    color: #fff;
+}
+ 
+.pie-proyecto h3 {
+    font-size: 25px;
+    margin: 0;
+}
+ 
+ 
+video {
+    border-radius: 10px;
+}
+ 
+audio {
+    margin-top: 15px;
+}
+ 
+#contacto p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+ 
+/* Pie de página */
+footer{
+    background-color: #000 !important;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+ 
